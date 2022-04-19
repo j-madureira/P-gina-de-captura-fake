@@ -1,0 +1,92 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main-header{
+    margin: auto;
+    background-color: dodgerblue;
+    height: 65px;
+    width: 90vw;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+
+#content{
+    margin: auto;
+    width: 90vw;
+    height: 69vh;
+    background-image: url(../IMAGENS/people.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#form-section{
+    position: absolute;
+    background-color: #ffffffbb  ;
+    width: 15vw;
+    height: 63vh;
+    text-align: center;
+    top: 36px;
+    right: 15px;
+}
+
+.input-text{
+    height: 35px;
+    width: 235px;
+    background-color: white;
+    
+    border: none;
+}
+
+.input-email{
+    height: 35px;
+    width: 235px;
+    border: none;
+    
+}
+
+.select{
+    height: 41px;
+    width: 241px;
+    border: none;
+}
+
+.button{
+    height: 41px;
+    width: 241px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    background-color: dodgerblue;
+}
+
+#informacoes{
+    margin: auto;
+    width: 90vw;
+    position: relative;
+    
+    height: 500px;
+}
+#image{
+    position: absolute;
+    top: 50px;
+    left: 449px;
+    height: 350px;
+    width: 350px;
+    background-image: url(../IMAGENS/face.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#text-informacoes{
+    position: absolute;
+    color: white;
+    top: 70px;
+    right: 450px;
+}
